@@ -47,3 +47,9 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
