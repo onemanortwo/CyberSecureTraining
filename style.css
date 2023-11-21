@@ -17,17 +17,33 @@ header {
 
   }
   .submenu {
-    display: none; /* Hide the submenu by default */
+    display: none; 
     position: absolute;
-    background-color: #9b8e8e; /* Set the background color */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a box shadow for a nice effect */
+    background-color: #343a40;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
   }
   
   .nav-item:hover .submenu {
-    display: block; /* Show the submenu when the parent item is hovered */
+    display: block; 
   }
   
   .nav-item:hover .submenu a {
-    display: block; /* Ensure submenu links are visible when the parent item is hovered */
-    color: #333; /* Set the text color for submenu links */
+    display: block; 
+    color: #adabab; 
   }
+
+  ul.submenu {
+    list-style: none;
+  }
+
+  .submenu li {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
