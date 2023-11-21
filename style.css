@@ -52,4 +52,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding-top:0px;    
+  padding-bottom: 0%; 
+  py-1;
 }
